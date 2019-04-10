@@ -2,16 +2,6 @@
 
 ![](./docs/banner.png)
 
-Outline
-
-1. Nice Image
-2. .NET Core IoT Open Source Project
-3. Starting your first project
-4. Sample
-5. How to Build, Deploy and Debug
-6. Where to get the Source Code
-7. IoT Central
-
 ## Why .NET Core
 
 [.NET Core](https://docs.microsoft.com/en-au/dotnet/core/) is an [open-source](https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT), general-purpose development platform maintained by Microsoft and the .NET community on [GitHub](https://github.com/dotnet/core). It supports multiple programming languages, multiple platforms (Windows, macOS, and Linux), and muluiple processor architectures. It is used to build device, cloud, and IoT applications.
