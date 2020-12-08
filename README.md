@@ -4,7 +4,7 @@
 
 ## Why .NET Core
 
-[.NET Core](https://docs.microsoft.com/en-au/dotnet/core/) is an [open-source](https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT), general-purpose development platform maintained by Microsoft and the .NET community on [GitHub](https://github.com/dotnet/core). It supports multiple programming languages, multiple platforms (Windows, macOS, and Linux), and muluiple processor architectures. It is used to build device, cloud, and IoT applications.
+[.NET Core](https://docs.microsoft.com/dotnet/core/?WT.mc_id=iot-0000-dglover) is an [open-source](https://github.com/dotnet/coreclr/blob/master/LICENSE.TXT), general-purpose development platform maintained by Microsoft and the .NET community on [GitHub](https://github.com/dotnet/core). It supports multiple programming languages, multiple platforms (Windows, macOS, and Linux), and muluiple processor architectures. It is used to build device, cloud, and IoT applications.
 
 ## The .NET Core IoT Libraries Open Source Project
 
@@ -22,11 +22,11 @@ The [.NET Core IoT Repository](https://github.com/dotnet/iot/tree/master/src) co
 
 You can create .NET Core IoT projects on Linux, macOS and Windows desktops.  You need to install the following software.
 
-1. [.NET Core](https://dotnet.microsoft.com/download)
-2. [Visual Studio Code](https://code.visualstudio.com/)
+1. [.NET Core](https://dotnet.microsoft.com/download?WT.mc_id=iot-0000-dglover)
+2. [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=iot-0000-dglover)
 3. For Windows Desktop:
     - [PuTTY SSH and telnet client](https://www.putty.org/)
-    - The [WSL workspaceFolder](https://marketplace.visualstudio.com/itemdetails?itemName=lfurzewaddock.vscode-wsl-workspacefolder) Visual Studio Extension
+    - The [WSL workspaceFolder](https://marketplace.visualstudio.com/itemdetails?itemName=lfurzewaddock.vscode-wsl-workspacefolder&WT.mc_id=iot-0000-dglover) Visual Studio Extension
 
 Follow these steps
 
@@ -94,11 +94,11 @@ Your Visual Studio Code **Program.cs** file should look like the following scree
 
 To deploy a project to your Raspberry Pi you need to tell Visual Studio Code to compile for **linux-arm**, how to copy the compiled code to the Raspberry Pi, and finally how to attach the debugger.
 
-For this walkthrough we are going to use [rsync](https://en.wikipedia.org/wiki/Rsync) to copy program files to the Raspberry Pi. Rsync is a very efficient file transfer protocol, comes standard with Linux, macOS, and Windows with the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) installed.
+For this walkthrough we are going to use [rsync](https://en.wikipedia.org/wiki/Rsync) to copy program files to the Raspberry Pi. Rsync is a very efficient file transfer protocol, comes standard with Linux, macOS, and Windows with the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/windows/wsl/install-win10?WT.mc_id=iot-0000-dglover) installed.
 
 ## Updating the Visual Studio Code Build Files
 
-We need to update the [launch.json](https://code.visualstudio.com/docs/editor/debugging) and [tasks.json](https://code.visualstudio.com/docs/editor/debugging) files with the following code.
+We need to update the [launch.json](https://code.visualstudio.com/docs/editor/debugging?WT.mc_id=iot-0000-dglover) and [tasks.json](https://code.visualstudio.com/docs/editor/debugging?WT.mc_id=iot-0000-dglover) files with the following code.
 
 Notes:
 
@@ -238,7 +238,7 @@ ssh-copy-id pi@raspberrypi.local
 
 ### Windows 10
 
-1. Install [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10). I suggest you install Ubuntu 18.04
+1. Install [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/windows/wsl/install-win10?WT.mc_id=iot-0000-dglover). I suggest you install Ubuntu 18.04
 
 2. Open a Bash command shell (from Windows Command Prompt or Powershell type Bash)
 
